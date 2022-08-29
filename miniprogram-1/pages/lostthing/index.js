@@ -6,6 +6,8 @@ Page({
      * 页面的初始数据
      */
     data: {
+      top_using_res:wx.getMenuButtonBoundingClientRect(),
+      windowInfo: wx.getWindowInfo(),
         navH: 0,
         firstname:"丢失校园卡",
         good_name:"可爱的我",
@@ -84,7 +86,7 @@ Page({
           "contact_Phone":"1101101110",
           "contact_Wechat":"akai1111s1ad21"
         }],
-        photos:["https://s1.328888.xyz/2022/08/05/ul86C.jpg","https://img1.imgtp.com/2022/08/05/q23HbBwo.jpg"],
+        photos:["https://s1.328888.xyz/2022/08/29/CzMYU.png","https://s1.328888.xyz/2022/08/29/CzgoR.png","https://s1.328888.xyz/2022/08/29/Czf0B.png"],
     },
     jumpToSearch:function(){
       wx.navigateTo({
